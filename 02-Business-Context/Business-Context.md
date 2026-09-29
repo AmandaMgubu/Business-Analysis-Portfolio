@@ -13,11 +13,17 @@ According to the Business Model Canvas (BMC), the registration procedure is a cr
 
 •	Customer segments: Prospective students, returning students, funders/sponsors.
 •	Value proposition: Career-aligned education that is clear, efficient, and supported by real-time tracking and easy registration.
+
 •	Channels: University visits in person, via email, SMS, WhatsApp, and online.
+
 •	Customer relationship: prompt staff support, self-service status updates, and proactive communication.
+
 •	Revenue streams: Applications, registration fees, and expedited tuition cash flow from speedier confirmations.
+
 •	Key resources: CRM, payment gateway, validated data, admissions and finance personnel, and the Student Management System (SMS).
+
 •	Key activities: Intake of applications, document verification, payment confirmation, approval, and creation of student numbers
+
 •	Key partners: MICT SETA (internship funding), local municipalities (for outreach), student support services, academic departments, finance, and IT vendors.
 
 # See the corresponding diagram<img width="702" height="590" alt="Business Model Canvas" src="https://github.com/user-attachments/assets/0be99d17-333e-4b52-8bdd-7f60ea1ecc2e" />
