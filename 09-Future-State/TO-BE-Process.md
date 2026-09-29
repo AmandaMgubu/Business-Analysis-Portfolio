@@ -12,7 +12,7 @@ The To-Be process is expected to be integrated, automated, and digitally first. 
 
 •	Inform employees of the project’s objectives and advantages.
 
-Stage 2 – Design stage (2 to 3 months)
+### Stage 2 – Design stage (2 to 3 months)
 
 •	Create a thorough BPMN for the To-Be procedure
 
@@ -56,7 +56,7 @@ Sustainable value will be produced by this To-Be process by:
 •	University future proofing- integrated systems in line with the objectives of digital transformation
 
 
-# # Future state – BPMN Diagram
+## Future state – BPMN Diagram
 
 This future state BPMN diagram is a simplified and completely integrated student registration procedure that removes many of the inefficiencies found in the AS-IS model. The primary actors are Students, Admissions, Finance, and IT/SMS (Student Management System). The procedure starts when the student uses the portal/CRM to submit an online application. Electronic document verification is triggered instantly and carried out utilizing OCR or AI techniques. The system ensures accuracy as soon as possible by returning the case to the student for resubmission if any papers are missing or invalid. Following validation, the procedure moves to Finance, where the student can access a fee quotation automatically generated using the same site. After that, the student pays, and a decision gateway verifies that the payment was received and processed. A follow-up or aided assistance workflow is started to help the student if payment is not completed.
 
