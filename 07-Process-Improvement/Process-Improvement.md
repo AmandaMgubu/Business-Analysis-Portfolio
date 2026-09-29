@@ -61,6 +61,7 @@ The plan should incorporate technological and human changes to address current a
 In the implementation stage, all the strategies you created are put into practice. People, technology, and procedures must be carefully coordinated for the university registration process to guarantee that the solutions are long-lasting and efficient.
 
 a.	Prioritizing solutions. 
+
 •	Start by implementing low-effort, high-impact solutions (example, automating student status notifications). 
 
 •	Next, medium-term fixes like automated payment confirmation and document verification should be implemented. 
@@ -120,6 +121,7 @@ e.	Change management
 After implementation, ongoing observation guarantees the solutions' efficacy and sustainability.
 
 KPIs (Key Performance Indicators)
+
 •	Turnaround Time: Monitor the typical days to get enrollment confirmation after applying.
 
 •	Application Accuracy: The quantity of applications that need to be revised or submitted again.
