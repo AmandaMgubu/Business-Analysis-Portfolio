@@ -3,7 +3,10 @@
 ## Fishbone diagram
 The fishbone diagram illustrates the underlying causes of a single headline issue: sluggish, frequently incorrect student registration. People, Process, Technology, Data, Policy/Compliance, and Communication are essential categories in this context; therefore, I organized the "bones" around them and then listed specific causes beneath each. For instance, I noted inconsistent master data and missing document standards under Data; fragmented SMS↔Finance↔CRM systems and no real-time APIs under Technology; single points of failure and limited cross-training under People; and duplicate checks and handoffs under Process. Creating this picture made it necessary for me and the stakeholders to distinguish between the causes (manual capture, integration gaps, confusing SOPs) and the symptoms (delays, rework, complaints).
 
-Please see Fishbone diagram attached
+### Please see Fishbone diagram attached
+
+<img width="497" height="718" alt="Fishbone Diagram" src="https://github.com/user-attachments/assets/09bbcead-6885-479b-94ea-7315ed8ee8a1" />
+
 
 ## 5 WHYS Analysis Technique
 
@@ -32,6 +35,6 @@ Delays in registration turnaround times are the primary issue. This occurs becau
 ## Pareto Analysis
 The Pareto chart ranks problems by their highest and lowest impact. It overlays a cumulative-percentage line, revealing which factors are responsible for most misery. I used case counts (the frequency of an issue) and time wasted (minutes/hours per instance) to calculate impact, which I then combined into a single "impact score." Three factors—manual processing, data integrity flaws, and system integration gaps—dominated the left side of the chart when I sorted these, contributing to almost 80% of all delays and rework. By automating document capture and validation, integrating SMS↔Finance↔CRM, and hardening master-data rules, I could concentrate improvement efforts on the essential few rather than distributing them widely. Additionally, Pareto provided me with a clear, defendable scope statement ("we will address the left-hand bars first") and baseline KPI targets (attack these three to reduce cycle time and rework).
 
-Please see Pareto diagram attached.<img width="497" height="718" alt="Fishbone Diagram" src="https://github.com/user-attachments/assets/78ab8557-af42-4a91-acca-9fa0bdd17ee9" />
+### Please see Pareto diagram attached.
 
 <img width="821" height="720" alt="Pareto Analysis" src="https://github.com/user-attachments/assets/55181c6d-53f7-4eb6-aeed-74545966d726" />
