@@ -1,7 +1,5 @@
 # Project Overview
 
-## Project Title
-
 # University Student Registration Process Improvement
 
 ## Project Background
