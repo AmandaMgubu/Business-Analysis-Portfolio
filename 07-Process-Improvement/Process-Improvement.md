@@ -17,7 +17,7 @@ This step assesses the university's resources, personnel, technology, and proced
 
 •	System Capacity: The academic, marketing, and admissions processes are unintegrated. This lowers actual processing capacity since employees must spend more time correcting mistakes or re-entering data into their systems.
 
-•	Process efficiency: The adequate capacity is even lower than the raw staff hours due to the additional time required for manual document verification, payment confirmation, and student communication.
+* •	Process efficiency: The adequate capacity is even lower than the raw staff hours due to the additional time required for manual document verification, payment confirmation, and student communication.
 
 The observed turnaround time of 10 to 15 days is due to insufficient capacity to manage peak registration demand.
 
