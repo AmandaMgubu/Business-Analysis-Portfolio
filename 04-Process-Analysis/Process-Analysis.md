@@ -1,40 +1,112 @@
-# Problem Identification technique
+# Process Analysis
 
-## Fishbone diagram
-The fishbone diagram illustrates the underlying causes of a single headline issue: sluggish, frequently incorrect student registration. People, Process, Technology, Data, Policy/Compliance, and Communication are essential categories in this context; therefore, I organized the "bones" around them and then listed specific causes beneath each. For instance, I noted inconsistent master data and missing document standards under Data; fragmented SMS↔Finance↔CRM systems and no real-time APIs under Technology; single points of failure and limited cross-training under People; and duplicate checks and handoffs under Process. Creating this picture made it necessary for me and the stakeholders to distinguish between the causes (manual capture, integration gaps, confusing SOPs) and the symptoms (delays, rework, complaints).
+## 1. Purpose
 
-### Please see Fishbone diagram attached
+Process analysis was used to identify problems within the student registration process and investigate the underlying causes contributing to delays, inefficiencies and data-related issues.
 
-<img width="497" height="718" alt="Fishbone Diagram" src="https://github.com/user-attachments/assets/09bbcead-6885-479b-94ea-7315ed8ee8a1" />
+The analysis applied three complementary techniques:
+
+- Fishbone Analysis
+- 5 Whys Analysis
+- Pareto Analysis
+
+Together, these techniques helped identify, investigate and prioritise the main problem areas.
+
+## 2. Problem Statement
+
+The student registration process experiences delays and inefficiencies due to manual activities, departmental hand-offs, information inconsistencies and limited process visibility.
+
+These issues can increase registration turnaround time and affect the student experience.
+
+## 3. Fishbone Analysis
+
+A Fishbone Diagram was used to explore potential causes of the registration process problems across different categories.
+
+The analysis considered:
+
+- **People** – roles, responsibilities and staff involvement
+- **Process** – manual activities and process hand-offs
+- **Technology** – system integration and workflow support
+- **Information/Data** – duplicated or inconsistent information
+- **Communication** – delays in sharing information between stakeholders
+- **Environment** – workload and registration-period pressures
+
+**Visual:**  
+<img width="497" height="718" alt="Fishbone Diagram" src="https://github.com/user-attachments/assets/5de18c53-eb7b-4241-a672-42d070141d86" />
 
 
-## 5 WHYS Analysis Technique
+## 4. 5 Whys Analysis
 
-Delays in registration turnaround times are the primary issue. This occurs because employees must process documents from different departments manually. Due to task duplication caused by the lack of integration between the CRM, Finance, and Student Management System, human labor is still required. The university's dependence on fragmented legacy systems that were never coordinated under a unified digital transformation plan is the cause of the lack of integration. Historically, IT and business groups operated independently, and leadership gave academic delivery precedence over increasing administrative effectiveness, which is why this strategy divide exists. Therefore, a strategic oversight is the deeper core cause: registration has been viewed as an administrative chore rather than a strategic process closely linked to long-term revenue, enrolment conversion, and student happiness.
+The 5 Whys technique was used to investigate why registration processing could take longer than expected.
 
-1.	Why are registration turnaround times delayed?
-•	Due to the manual processing of applications and supporting documentation across several departments
+### Problem
 
-2.	Why are documents processed manually across departments?
-•	Staff must re-enter and validate data independently because the CRM, Finance platform, and Student Management System (SMS) are not completely integrated.
+**Registration processing takes longer than expected.**
 
-3.	Why are the systems not integrated?
-•	because the university lacks a comprehensive plan for digital transformation and instead depends on fragmented legacy platforms that were put into place at different times.
+### Why 1
+Some registration activities require manual processing and verification.
 
-4.	Why was there no overarching digital transformation strategy?
-•	Historically, business and IT departments have worked independently, and investment priorities have prioritized academic delivery over back-office process optimization.
+### Why 2
+Information and documentation need to move between different departments.
 
-5.	Why did investment priorities favour academic delivery over process optimisation?
-•	Because leadership viewed registration as an administrative task rather than a strategic process that added value and directly influenced revenue, enrollment conversion, and student happiness.
+### Why 3
+Each department depends on activities or information completed by other departments.
+
+### Why 4
+The workflow is not fully integrated across the registration journey.
+
+### Why 5
+Manual hand-offs, limited process visibility and fragmented information create opportunities for delays.
+
+### Root Cause Insight
+
+The analysis indicates that the problem is not caused by one isolated activity. It is influenced by the interaction between **people, processes, information and technology**.
 
 
+## 5. Pareto Analysis
+
+Pareto Analysis was used to prioritise the identified problem areas according to their relative impact on the registration process.
+
+The key areas considered were:
+
+| Problem Area | Priority |
+|---|---|
+| Manual processing | High |
+| Departmental hand-offs | High |
+| Data inconsistencies | High |
+| Communication delays | Medium |
+| Limited process visibility | Medium |
+| Peak registration volumes | Medium |
+
+The analysis indicates that addressing the highest-impact problem areas could provide the greatest opportunity for process improvement.
+
+**Visual:**  
+<img width="821" height="720" alt="Pareto Analysis" src="https://github.com/user-attachments/assets/af662d3f-c55d-4ce2-9642-9f91343a196a" />
 
 
-# Problem prioritization technique
+## 6. Key Findings
 
-## Pareto Analysis
-The Pareto chart ranks problems by their highest and lowest impact. It overlays a cumulative-percentage line, revealing which factors are responsible for most misery. I used case counts (the frequency of an issue) and time wasted (minutes/hours per instance) to calculate impact, which I then combined into a single "impact score." Three factors—manual processing, data integrity flaws, and system integration gaps—dominated the left side of the chart when I sorted these, contributing to almost 80% of all delays and rework. By automating document capture and validation, integrating SMS↔Finance↔CRM, and hardening master-data rules, I could concentrate improvement efforts on the essential few rather than distributing them widely. Additionally, Pareto provided me with a clear, defendable scope statement ("we will address the left-hand bars first") and baseline KPI targets (attack these three to reduce cycle time and rework).
+The process analysis identified several interconnected issues:
 
-### Please see Pareto diagram attached.
+- Excessive manual processing
+- Multiple departmental hand-offs
+- Inconsistent or duplicated information
+- Communication delays
+- Limited visibility of registration status
+- Dependence on several stakeholders to complete the process
 
-<img width="821" height="720" alt="Pareto Analysis" src="https://github.com/user-attachments/assets/55181c6d-53f7-4eb6-aeed-74545966d726" />
+These findings provide the basis for the requirements, gap analysis and future-state process design.
+
+## 7. Business Analysis Insight
+
+The analysis demonstrates the importance of investigating the underlying causes of a business problem rather than addressing only its visible symptoms.
+
+The combination of **Fishbone, 5 Whys and Pareto Analysis** provides three different perspectives:
+
+| Technique | Purpose |
+|---|---|
+| Fishbone | Explore potential causes |
+| 5 Whys | Investigate underlying causes |
+| Pareto | Prioritise problem areas |
+
+The findings were used to inform the proposed process improvements and future-state design.
