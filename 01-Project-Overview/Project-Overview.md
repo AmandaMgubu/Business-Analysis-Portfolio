@@ -1,78 +1,62 @@
-# Project Overview
-
 # University Student Registration Process Improvement
 
-## Project Background
+## Project Overview
 
-This Business Analysis project focuses on analysing and improving the student registration process at a private university in South Africa.
+This project is a Business Analysis case study focused on analysing and improving a university student registration process.
 
-The university offers diploma and certificate programmes across areas such as Business, Education and Information and Communication Technology (ICT), supported by digital platforms and blended learning.
+The project examines how students move through the registration journey, identifies process inefficiencies and their underlying causes, and proposes a future-state process with measurable improvement opportunities.
 
 ## Business Problem
 
-The student registration process involves multiple departments and activities, including application intake, document verification, payment confirmation, registration approval and student number generation.
+The registration process involves multiple departments, including Admissions, Finance, Academic Departments and Student Administration.
 
 The analysis identified challenges such as:
 
+- Manual processing and departmental hand-offs
 - Delays in registration processing
-- Manual activities and departmental hand-offs
 - Inconsistent or duplicated student information
 - Limited visibility of registration progress
-- Communication delays between stakeholders
+- Communication delays between departments
 
-These challenges can affect registration turnaround time and the overall student experience.
+These challenges can increase registration turnaround time and negatively affect the student experience.
 
-## Project Purpose
+## Project Objective
 
-The purpose of the project was to analyse the existing registration process, identify the underlying causes of inefficiencies, and develop a proposed future-state process with practical improvement recommendations.
-
-## Project Objectives
-
-The project aimed to:
-
-- Understand and document the current registration process.
-- Identify key stakeholders and their involvement.
-- Analyse problems and their underlying causes.
-- Identify gaps between the current and desired process.
-- Define requirements for process improvement.
-- Design a proposed future-state registration process.
-- Identify KPIs that could be used to measure process performance.
+The objective was to understand the current registration process, identify the causes of inefficiencies, and develop a practical future-state process supported by requirements, improvement recommendations and performance measures.
 
 ## Scope
 
-The analysis covered the following registration activities:
+The analysis covered the registration journey from:
 
-**Application Intake → Document Verification → Fee Quotation/Payment Confirmation → Registration Approval → Student Number Generation → Registration Outcome**
+**Application Intake → Document Verification → Fee Quotation / Payment Confirmation → Registration Approval → Student Number Generation → Registration Outcome**
 
-The project focused on the business process and improvement opportunities rather than implementing a new system.
+The project focused on analysing the business process and identifying improvement opportunities rather than implementing a new system.
 
 ## Business Analysis Approach
 
-The project followed a structured Business Analysis approach:
+The project followed an end-to-end Business Analysis approach:
 
-1. Business Context
-2. Business Process Modelling
-3. Stakeholder Analysis
-4. Problem Identification
-5. Root-Cause Analysis
-6. Problem Prioritisation
-7. Process Identification
-8. Requirements Analysis
-9. Gap Analysis
-10. Process Improvement
-11. Future-State Process Design
-12. KPI Definition
-13. Recommendations and Roadmap
+1. Understand the business context
+2. Model the existing process
+3. Identify stakeholders
+4. Identify and analyse problems
+5. Investigate root causes
+6. Prioritise improvement areas
+7. Identify process gaps
+8. Define requirements
+9. Design the future-state process
+10. Define KPIs
+11. Develop recommendations and an improvement roadmap
 
-## Business Analysis Techniques Used
+## Business Analysis Techniques
 
-The project applied several Business Analysis techniques, including:
+The project applied the following techniques:
 
 - WHAT Model
 - WHO Model
 - HOW Model
 - Business Model Canvas
-- Fishbone Diagram
+- Fishbone Analysis
 - 5 Whys Analysis
 - Pareto Analysis
 - SWOT Analysis
@@ -84,21 +68,7 @@ The project applied several Business Analysis techniques, including:
 - Gap Analysis
 - KPI Analysis
 
-## Expected Outcomes
-
-The proposed improvements are intended to support:
-
-- Reduced registration processing delays
-- Improved data accuracy
-- Better coordination between departments
-- Improved process visibility
-- Reduced unnecessary manual activities
-- More effective communication
-- Improved student experience
-
-These outcomes would need to be validated against actual process performance and stakeholder feedback before implementation.
-
-## Portfolio Skills Demonstrated
+## Key Skills Demonstrated
 
 This project demonstrates practical application of:
 
@@ -107,8 +77,37 @@ This project demonstrates practical application of:
 - Requirements Analysis
 - Stakeholder Analysis
 - Root-Cause Analysis
-- Process Improvement
 - Gap Analysis
+- Process Improvement
 - Problem Solving
 - KPI Development
 - Business Analysis Documentation
+
+## Expected Business Value
+
+The proposed improvements are intended to support:
+
+- Reduced registration processing delays
+- Improved data accuracy
+- Better coordination between departments
+- Improved process visibility
+- Reduced unnecessary manual activities
+- More timely communication
+- Improved student experience
+
+The proposed improvements would need to be validated against actual process performance and stakeholder feedback before implementation.
+
+## Portfolio Navigation
+
+Explore the sections below to follow the analysis from the current-state process through to the proposed future state:
+
+- [Business Context](../02-Business-Context/Business-Context.md)
+- [Business Process Modelling](../03-Business-Process-Modelling/Business-Process-Models.md)
+- [Process Analysis](../04-Process-Analysis/Process-Analysis.md)
+- [Stakeholder & Strategic Analysis](../05-Stakeholder-and-Strategic-Analysis/Analysis.md)
+- [Process Identification](../06-Process-Identification/SIPOC-Analysis.md)
+- [Process Improvement](../07-Process-Improvement/Process-Improvement.md)
+- [Requirements & Gap Analysis](../08-Requirements-and-Gap-Analysis/Requirements.md)
+- [Future State](../09-Future-State/TO-BE-Process.md)
+- [KPIs](../10-KPIs/KPIs.md)
+- [Recommendations & Roadmap](../11-Recommendations-and-Roadmap/Recommendations.md)
