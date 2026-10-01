@@ -32,6 +32,8 @@ The model helps establish what is required at each stage of the process and how 
 | Information | Student and registration information |
 | Business Outcome | Successfully registered student |
 
+### WHAT Model 
+
 <img width="1379" height="509" alt="WHAT Model" src="https://github.com/user-attachments/assets/427926ee-580d-4fc0-91a8-8751db1da1ea" />
 
 
@@ -62,6 +64,9 @@ Understanding the roles of each participant helps identify responsibilities, dep
 | Student Administration | Coordinate registration activities and records |
 | IT Department | Support systems and technical functionality |
 
+
+### WHO Model 
+
 <img width="602" height="423" alt="WHO Model" src="https://github.com/user-attachments/assets/a390da34-84c9-47ef-8102-dce07c05b0b4" />
 
 
@@ -78,6 +83,8 @@ The model considers the relationship between:
 - Process outputs
 
 This provides an integrated view of how the registration process moves from application through to the final registration outcome.
+
+### HOW Model
 
 <img width="1159" height="515" alt="HOW Model" src="https://github.com/user-attachments/assets/d58e8665-56d8-4872-a437-533e276ecae6" />
 
@@ -98,6 +105,6 @@ Together, these models help establish an end-to-end understanding of the registr
 
 The corresponding process models are included in this folder:
 
-- `WHAT-Model.png`
-- `WHO-Model.png`
-- `HOW-Model.png`
+- `WHAT-Model.`
+- `WHO-Model.`
+- `HOW-Model.`
