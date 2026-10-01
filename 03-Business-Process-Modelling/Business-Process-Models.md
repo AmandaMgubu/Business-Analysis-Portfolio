@@ -1,43 +1,103 @@
-## BUSINESS PROCESS MODELS
+# Business Process Modelling
 
-When I tackled the challenge of the student registration process, I realized that the problems were dispersed throughout people, data, systems, time, and workflows rather than occurring in a single location. I used W5 or xBML, which divides a process into six fundamental dimensions or models: Who, What, Where, When, Which, and How, to provide a comprehensive picture. This approach made it simpler to identify the underlying reasons and develop solutions by enabling me to link each problem to the process step that it most directly affects.
+## 1. Purpose
 
-I concentrated on the things handled in the WHAT Model, such as application forms, identification documents, proof of payment, and student personal information. In my experience, inadequate or inconsistent information, such as mismatched ID numbers or missing verification of qualifications, occurred frequently. Data frequently clashed since many departments (finance, admissions, and academics) kept separate versions of the same student record, requiring more effort to verify and rectify inputs. In addition to slowing things down, registration errors irritated students and damaged their confidence.
+Business Process Modelling was used to understand and represent the student registration process from different perspectives.
 
-# WHAT Model 
-In the WHAT model, these are the activities that are most affected by the problems (in red):
-1.	Record candidate information - Forms are frequently inaccurate or lacking certain information (for example, missing qualification details, wrong ID numbers). Employees must return them for corrections, which prolongs the procedure by several days.
-2.	Verify documents - Multiple departments must verify copies of identification documents, proof of qualifications, and proof of payment. This duplication wastes time.
-3.	Create student record - Information is updated independently in the academic, admissions, and finance systems. Departmental data discrepancies arise (for example, finance indicates payment confirmed, while admissions indicate pending).
+The analysis used the **WHAT, WHO and HOW models** to establish:
+
+- What activities and outcomes are involved
+- Who is responsible for or involved in the process
+- How the activities, information and interactions connect
+
+These models provided a foundation for analysing the current process and identifying improvement opportunities.
+
+## 2. WHAT Model
+
+The WHAT Model identifies the key activities, inputs, outputs and entities involved in the student registration process.
+
+The registration process includes activities such as:
+
+**Application Intake → Document Verification → Fee Quotation / Payment Confirmation → Registration Approval → Student Number Generation → Registration Outcome**
+
+The model helps establish what is required at each stage of the process and how information or outputs move between activities.
+
+### Key Elements
+
+| Element | Example |
+|---|---|
+| Input | Student application and supporting documents |
+| Process | Verification, payment confirmation and approval |
+| Output | Registration decision and student number |
+| Information | Student and registration information |
+| Business Outcome | Successfully registered student |
+
+<img width="1379" height="509" alt="WHAT Model" src="https://github.com/user-attachments/assets/427926ee-580d-4fc0-91a8-8751db1da1ea" />
 
 
-### See the WHAT model attached.
 
-<img width="1379" height="509" alt="WHAT Model" src="https://github.com/user-attachments/assets/3b43fb4b-f845-4312-8c6e-60db3a1ad808" />
+## 3. WHO Model
+
+The WHO Model identifies the people, departments and other participants involved in the registration process.
+
+Key participants include:
+
+- Students
+- Admissions
+- Finance
+- Academic Departments
+- Student Administration
+- IT Department
+
+Understanding the roles of each participant helps identify responsibilities, dependencies and hand-offs within the process.
+
+### Key Stakeholder Responsibilities
+
+| Participant | Main Responsibility |
+|---|---|
+| Student | Submit information and supporting documentation |
+| Admissions | Receive applications and verify documentation |
+| Finance | Provide fee information and confirm payment |
+| Academic Department | Review and approve registration |
+| Student Administration | Coordinate registration activities and records |
+| IT Department | Support systems and technical functionality |
+
+<img width="602" height="423" alt="WHO Model" src="https://github.com/user-attachments/assets/a390da34-84c9-47ef-8102-dce07c05b0b4" />
 
 
-# WHO Model 
-I examined the WHO registration model and found that a select few held essential positions. For instance, only one finance officer could finalize payment confirmation, and only one admissions officer could authorize registration. Everything stood at a standstill if they were unavailable because of leave, illness, or workload. Additionally, some employees lacked clear roles, which led to work being done twice and occasionally even disagreements over who oversaw a task. One of the main reasons for the lengthy turnaround times is the absence of redundancy and role definition.
+## 4. Integrated HOW Model
 
-In the WHO model, several activities (in red) are done by a few people, which causes delays.
+The HOW Model integrates the activities, participants and information involved in the registration process to show how the process operates.
 
-1.	Admissions officer - A single individual reviews and approves all student applications. When the officer is absent or the workload is heavy, this causes a bottleneck.
-2.	Finance officer - One financial officer manually verifies payments and matches them to applications. Because payment confirmations aren't automatic, this slows down the procedure.
-3.	Admissions department - Employees invest much time in finding students who have missing documents. Individual emails or phone conversations are frequently used for this, which is ineffective and erratic.
+The model considers the relationship between:
+
+- Activities
+- People and departments
+- Information and documents
+- Systems and supporting resources
+- Process outputs
+
+This provides an integrated view of how the registration process moves from application through to the final registration outcome.
+
+<img width="1159" height="515" alt="HOW Model" src="https://github.com/user-attachments/assets/d58e8665-56d8-4872-a437-533e276ecae6" />
 
 
-### See the WHO model attached.
+## 5. Business Analysis Insight
 
-<img width="602" height="423" alt="WHO Model" src="https://github.com/user-attachments/assets/f40c8d92-0572-4089-a680-ec40f75ba1db" />
+The three models provide complementary perspectives of the same business process:
 
+| Model | Focus |
+|---|---|
+| WHAT | Activities, inputs, outputs and information |
+| WHO | Participants, roles and responsibilities |
+| HOW | How activities, people and information interact |
 
-# Integrated HOW Model
-The HOW model analysis showed too many manual interventions and repetitive checks in the registration operation. For instance, even though the initial verification ought to have been sufficient, documents were checked several times by various individuals in various departments. Additionally, certain approvals were subjected to pointless procedures, which increased the amount of bureaucracy. The workflow resembled a zigzag rather than a straight line, with loops squandering time for staff and students.
+Together, these models help establish an end-to-end understanding of the registration process before deeper problem and root-cause analysis is performed.
 
-The existing process is highly repetitive and manual:
-1.	Multiple verification - Finance, admissions, and academics review the same paper rather than going through a separate verification process.
-2.	Redundant data entry - Instead of being entered once, student information is entered into three different systems.
+## 6. Supporting Visuals
 
-### See HOW Model attached.
+The corresponding process models are included in this folder:
 
-<img width="1159" height="515" alt="HOW Model" src="https://github.com/user-attachments/assets/6314b51b-8f8d-4584-9b88-d8728b9a9afb" />
+- `WHAT-Model.png`
+- `WHO-Model.png`
+- `HOW-Model.png`
