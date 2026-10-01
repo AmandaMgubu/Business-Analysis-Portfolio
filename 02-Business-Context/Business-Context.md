@@ -1,29 +1,75 @@
 # Business Context
-This private institution offers diploma and certificate programs in business, education, and ICT, and it competes in South Africa's competitive higher education market. Its value proposition is to offer easily accessible, career-relevant education via digital platforms and blended learning techniques. The institution's strategic goal is to increase access to higher education while maintaining industrial relevance, graduate employability, and academic excellence.
 
-The environment of the institution depends on a wide variety of stakeholders. Its internal operations, especially in managing the student journey from application to graduation, are centered on academic departments, the finance office, student support services, and admissions personnel. Externally, the organization collaborates with MICT SETA for internship financing and skill development, local municipalities for outreach programs, and IT providers for system development and support. Prospective and returning students looking for accredited degrees that improve their professional chances are at the center of its offerings. The Department of Higher Education and Training (DHET) and other accrediting agencies supervise the university's operations and require compliance and accurate enrollment data reporting.
+## 1. Organisational Context
 
-Notwithstanding these advantages, the university still has many problems with the student registration procedure. Delays in enrollment response times, laborious and inefficient processes, and a high frequency of data mistakes across departments are characteristics of the system. Platforms for marketing, admissions, and academia that are siloed from one another do not integrate well, which results in redundant effort and inconsistent data. Administrative burdens, increased expenses, and trouble with DHET's compliance standards are the outcomes of these inefficiencies. The procedure annoys students, frequently resulting in discontent and increasing the likelihood of dropping out. Additionally, other universities have already implemented online registration systems that offer quicker, more convenient experiences, putting pressure on the university to compete.
+The project focuses on a private university in South Africa that offers diploma and certificate programmes in areas including Business, Education and Information and Communication Technology (ICT).
 
-Nevertheless, these difficulties also offer chances for change. The institution can significantly expedite registration, reduce turnaround times, and enhance data accuracy by adopting digital technology and linking systems across departments. Improved data management would assist evidence-based decision-making and bolster compliance reporting. Digital self-service systems would streamline the registration process from the student's standpoint, increasing satisfaction and lowering the chance of dropout. Operationally, staff could concentrate on higher-value services since automation and integration would cut down on duplication and administrative expenses. When taken as a whole, these enhancements would make the school more competitive in a fast-changing educational environment.
+The university uses digital platforms and blended learning approaches to support students throughout their academic journey.
 
-Resolving the registration process's flaws immediately advances the university's long-term plan. Enhancements to registration would boost the institution's competitiveness in the market, increase enrollment conversion rates, and improve the student experience. The university will continue to be a desirable option in South Africa's higher education market because digital transformation supports the organization's objectives of efficiency, innovation, and responsiveness to student demands.
+## 2. Business Process Context
 
-According to the Business Model Canvas (BMC), the registration procedure is a crucial component that converts student curiosity into real income.
+Student registration is a critical administrative process that connects several areas of the university.
 
-•	Customer segments: Prospective students, returning students, funders/sponsors.
-•	Value proposition: Career-aligned education that is clear, efficient, and supported by real-time tracking and easy registration.
+The process involves activities such as:
 
-•	Channels: University visits in person, via email, SMS, WhatsApp, and online.
+**Application Intake → Document Verification → Fee Quotation / Payment Confirmation → Registration Approval → Student Number Generation → Registration Outcome**
 
-•	Customer relationship: prompt staff support, self-service status updates, and proactive communication.
+Several departments contribute to the process, including:
 
-•	Revenue streams: Applications, registration fees, and expedited tuition cash flow from speedier confirmations.
+- Admissions
+- Finance
+- Academic Departments
+- Student Administration
+- Information Technology (IT)
 
-•	Key resources: CRM, payment gateway, validated data, admissions and finance personnel, and the Student Management System (SMS).
+Because the process involves multiple stakeholders and hand-offs, delays or inaccurate information at one stage can affect subsequent activities.
 
-•	Key activities: Intake of applications, document verification, payment confirmation, approval, and creation of student numbers
+## 3. Business Problem
 
-•	Key partners: MICT SETA (internship funding), local municipalities (for outreach), student support services, academic departments, finance, and IT vendors.
+The analysis identified several challenges within the registration process:
 
-# See the corresponding diagram<img width="702" height="590" alt="Business Model Canvas" src="https://github.com/user-attachments/assets/0be99d17-333e-4b52-8bdd-7f60ea1ecc2e" />
+- Manual processing of registration activities
+- Delays between departmental hand-offs
+- Inconsistent or duplicated student information
+- Limited visibility of registration progress
+- Communication delays
+- Dependence on multiple departments to complete the registration journey
+
+These challenges can contribute to longer registration turnaround times and may negatively affect the student experience.
+
+## 4. Business Need
+
+There is a need for a more coordinated and transparent registration process that:
+
+- Reduces unnecessary manual activities
+- Improves the accuracy and consistency of information
+- Provides better visibility of registration progress
+- Improves communication between departments
+- Clarifies responsibilities across the process
+- Supports more efficient registration processing
+
+## 5. Key Stakeholders
+
+| Stakeholder | Role in the Process |
+|---|---|
+| Students | Submit applications, provide documentation and receive registration outcomes |
+| Admissions | Receive applications and verify documentation |
+| Finance | Provide fee information and confirm payments |
+| Academic Departments | Review and approve registration |
+| Student Administration | Coordinate and maintain registration information |
+| IT Department | Support systems, data and technical functionality |
+| University Management | Monitor process performance and business outcomes |
+
+## 6. Business Analysis Perspective
+
+The registration process should be viewed as an **end-to-end business process** rather than a collection of separate departmental activities.
+
+The analysis therefore considers how people, processes, information and technology interact throughout the registration journey.
+
+This provides the foundation for identifying process problems, analysing their causes and designing a future-state process.
+
+## 7. Business Analysis Outcome
+
+The business context establishes the reason for analysing the registration process and provides the foundation for the subsequent process modelling and analysis.
+
+The following sections examine the current process, stakeholders, root causes, requirements, gaps and opportunities for improvement.
